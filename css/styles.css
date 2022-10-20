@@ -1,0 +1,46 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background-color: grey;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #ff6c00;
+}
+.header-number {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.header-button {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
